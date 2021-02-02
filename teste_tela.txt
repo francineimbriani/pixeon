@@ -1,0 +1,38 @@
+exercicio1_pixeon.feature
+
+Funcionalidade: Dados da conta
+   Como um usuário do sistema XPTO
+   Fulano quer completar os dados da sua conta
+   Para que ele tenha seus dados atualizados
+
+Contexto:
+	Dado que Fulano possui uma conta no sistema
+	E que Fulano acessa a página My account
+	
+Cenário: Preenchendo dados da conta
+   Dado que ele preenche seus dados de usuário
+   E ele preenche suas informações de contato
+   E ele preenche o campo "sobre mim"
+   Quando ele deixar a página My account
+   Então os dados informados devem ser salvos
+   
+Cenário: E-mail inválido
+   Dado que ele informe um e-mail incorreto
+   Quando deixar o campo e-mail
+   Então uma mensagem de aviso de e-mail incorreto deve ser exibida
+   
+Cenário: Dados incompletos
+   Dado que ele deixe os campos considerados obrigatórios em branco
+   Quando ele deixar a página My account
+   Então os campos obrigatórios não preenchidos deverão ser destacados em vermelho
+   E uma mensagem de aviso de campos obrigatórios em branco deve ser exibida
+   
+
+
+
+
+
+
+
+
+
