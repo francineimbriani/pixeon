@@ -1,0 +1,54 @@
+{
+  "id": "40b4aeca-73e7-413c-a0c8-ac102d15411f",
+  "version": "2.0",
+  "name": "Teste_Pixeon",
+  "url": "https://the-internet.herokuapp.com",
+  "tests": [{
+    "id": "e380682c-77cb-4612-9c5a-8049bea403ec",
+    "name": "Start",
+    "commands": [{
+      "id": "ce1cadfb-3156-44c8-a88f-c1bd7e5f6090",
+      "comment": "",
+      "command": "open",
+      "target": "/dynamic_loading/1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52085c1f-f86a-4712-acb3-d550e8b15f72",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b12797f-4888-4121-b306-5310cc04ecd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d9c8461-30b8-41bd-ab66-73a79367f9ba",
+      "comment": "Hello World!",
+      "command": "waitForText",
+      "target": "css=h4:nth-child(1)",
+      "targets": [
+        ["css=h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='finish']/h4", "xpath:idRelative"],
+        ["xpath=//div[3]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Hello World!')]", "xpath:innerText"]
+      ],
+      "value": "Hello World!"
+    }]
+  }],
+  "suites": [{
+    "id": "2918e534-f595-4944-82da-620da957bf89",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e380682c-77cb-4612-9c5a-8049bea403ec"]
+  }],
+  "urls": ["https://the-internet.herokuapp.com/"],
+  "plugins": []
+}
