@@ -29,7 +29,7 @@
       "value": ""
     }, {
       "id": "6d9c8461-30b8-41bd-ab66-73a79367f9ba",
-      "comment": "Hello World!",
+      "comment": "",
       "command": "waitForText",
       "target": "css=h4:nth-child(1)",
       "targets": [

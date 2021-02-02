@@ -80,7 +80,7 @@
       "value": "SuperSecretPassword!"
     }, {
       "id": "5bc3423d-bcd3-4280-8e5a-e744ba3ad2e4",
-      "comment": "Login",
+      "comment": "Clicar login",
       "command": "click",
       "target": "css=.fa",
       "targets": [
